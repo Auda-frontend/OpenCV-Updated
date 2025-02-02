@@ -2,7 +2,7 @@ from pylibdmtx.pylibdmtx import decode
 from PIL import Image
 
 # Load the ECC 200 Data Matrix image
-image = Image.open("ecc200_datamatrix.png")
+image = Image.open("IMG_2019.jpg")
 
 # Decode the ECC 200 Data Matrix
 decoded = decode(image)
